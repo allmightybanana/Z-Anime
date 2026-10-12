@@ -27,6 +27,13 @@ Extracts direct master HLS `.m3u8` playlists, parsed quality variants (`1080p`, 
 ```bash
 cd zokoanime-scraper
 npm install
+
+# Start server:
+npm start
+
+# Or manage with PM2:
+pm2 start
+# or npm run pm2:start
 ```
 
 ### 2. CLI Usage
